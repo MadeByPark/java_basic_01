@@ -11,6 +11,10 @@ public class back {
         고무오리 a고무오리 = new 고무오리();
         a고무오리.날다();
         // 출력 : 오리가 날개로 날아갑니다.
+
+        고무2오리 a고무2오리 = new 고무2오리();
+        a고무2오리.날다();
+        // 출력 : 저는 날 수 없어요. ㅜㅠ
     }
 }
 
@@ -31,6 +35,14 @@ class 고무오리 extends 오리  {
         System.out.println("저는 날 수 없어요. ㅜㅠ");
     }
 }
+
+class 고무2오리 extends 오리  {
+    void 날다() {
+        System.out.println("저는 날 수 없어요. ㅜㅠ");
+    }
+}
+
+
 
 
 
